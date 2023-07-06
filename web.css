@@ -72,3 +72,38 @@
     background-color: blueviolet;
 }
 /* Banner Section Style Stop */
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    height: 70vh;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: row-reverse;
+}
+.abt-photo{
+    width: 320px;
+}
+.text-two{
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.btn-two{
+    background-color: red;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 15px;
+}
+.btn-two:hover{
+    background-color: blueviolet;
+}
+.abt-heading{
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 10px;
+    text-align: center;
+}
