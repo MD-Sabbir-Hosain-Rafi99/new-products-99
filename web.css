@@ -72,7 +72,7 @@
     background-color: blueviolet;
 }
 /* Banner Section Style Stop */
-
+/* About Section Style Start */
 .about-container{
     display: flex;
     justify-content: space-around;
@@ -80,6 +80,7 @@
     align-items: center;
     background-size: cover;
     background-repeat: no-repeat;
+    /* flex-direction is reverse of two div */
     flex-direction: row-reverse;
 }
 .abt-photo{
@@ -106,4 +107,83 @@
     font-size: 50px;
     margin-top: 10px;
     text-align: center;
+}
+/* About Section Style End */
+/* Service Style Start Here */
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(./Images/background.png),linear-gradient(45deg, rgb(8, 8, 8),rgb(53, 53, 53));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    align-items: center;
+    
+    
+}
+.digital-art{
+    background-color: black;
+    color: white;
+    width: 250px;
+    height: 400px;
+    align-items: center;
+    box-shadow: 4px 4px 15px white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+}
+.zero{
+    width: 120px;
+}
+.btn-gray{
+    background-color: gray;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 15px;
+}
+.hd-title{
+    font-size: 45px;
+    text-align: center;
+    padding-top: 20px;
+}
+.para-services{
+    margin-top: 15px;
+    font-size: 18px;
+}
+.hdr{
+    font-size: 45px;
+    text-align: center;
+    padding-top: 20px;
+    background-image: url(./Images/background.png),linear-gradient(45deg, rgb(8, 8, 8),rgb(53, 53, 53));
+    color: white;
+}
+/* Service Style End here */
+/* Footer Style Start Here */
+.ftr-container{
+    background-color: rgb(12, 12, 12);
+    color: white;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+.ftr-photo{
+    width: 150px;
+    margin-bottom: 18px;
+}
+.ftr-cpy{
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    padding: 20px;
+}
+#line{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 10px;
 }
